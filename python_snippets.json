@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "code": "def add(a, b):\n    return a + b"
+    },
+    {
+        "id": 2,
+        "code": "def dispense(n, coins):\n    dispensed = []\n    while n > 0:\n        for i in range(len(coins)):\n            curr_coin_amount = coins[i]\n            if n >= curr_coin_amount:\n                num_coins_used = n // curr_coin_amount\n                n -= curr_coin_amount * num_coins_used\n                for j in range(num_coins_used):\n                    dispensed += [curr_coin_amount]\n    return dispensed"
+    },
+    {
+        "id": 3,
+        "code": "for i in range(10):\n    if i % 2 = 0:\n        print(f\"{i} is even\")\n    else\n        print(f\"{i} is odd\")"
+    }
+]
